@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78356" started-at="2021-02-12T06:00:07 IST" finished-at="2021-02-12T06:01:25 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78356" started-at="2021-02-12T06:00:07 IST" finished-at="2021-02-12T06:01:25 IST">
+      <class name="testCases.NewUser">
+        <test-method status="PASS" signature="executeReportLevel()[pri:0, instance:testCases.NewUser@10a035a0]" name="executeReportLevel" is-config="true" duration-ms="205" started-at="2021-02-12T06:00:06 IST" finished-at="2021-02-12T06:00:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeReportLevel -->
+        <test-method status="PASS" signature="executeTestLevel()[pri:0, instance:testCases.NewUser@10a035a0]" name="executeTestLevel" is-config="true" duration-ms="9" started-at="2021-02-12T06:00:07 IST" finished-at="2021-02-12T06:00:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestLevel -->
+        <test-method status="PASS" signature="getExcelFileName()[pri:0, instance:testCases.NewUser@10a035a0]" name="getExcelFileName" is-config="true" duration-ms="0" started-at="2021-02-12T06:00:07 IST" depends-on-methods="utils.ExtentReporter.executeTestLevel" finished-at="2021-02-12T06:00:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExcelFileName -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.NewUser@10a035a0]" name="openBrowser" is-config="true" duration-ms="20806" started-at="2021-02-12T06:00:07 IST" finished-at="2021-02-12T06:00:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="runNewUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.NewUser@10a035a0]" name="runNewUser" duration-ms="57032" started-at="2021-02-12T06:00:28 IST" data-provider="fetchData" finished-at="2021-02-12T06:01:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[397310047]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[09-01-1992]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[95407]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0047]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runNewUser -->
+        <test-method status="PASS" signature="closeFlush()[pri:0, instance:testCases.NewUser@10a035a0]" name="closeFlush" is-config="true" duration-ms="278" started-at="2021-02-12T06:01:25 IST" finished-at="2021-02-12T06:01:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeFlush -->
+      </class> <!-- testCases.NewUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

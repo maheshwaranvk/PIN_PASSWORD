@@ -31,5 +31,21 @@ public class HomePage extends ProjectSpecificMethods{
 	  reportStatus("Login Successfully", "pass", img); 
 	  return
 	  this; }
+	
+	public HomePage closeGMC() {
+		locateElement("id", "alDialogCloseBtn").click();
+return this;
+	}
+	
+	public HomePage clickLogInInfor() {
+		locateElement("id", "al-aux-your-profile-aria-label").click();
+		return this;
+	}
+	
+	public LoginInfo clickLogin() {
+		locateElement("xpath", "(//a[text()='Log In Information'])[1]").click();
+		return new LoginInfo();
+
+	}
 
 }

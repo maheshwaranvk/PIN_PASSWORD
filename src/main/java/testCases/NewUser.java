@@ -36,6 +36,5 @@ public class NewUser extends ProjectSpecificMethods {
 		  .checkHomePageLoaded()
 		  .verifyTitle() .addScreenshot()
 		  ;
-
 	}
 }

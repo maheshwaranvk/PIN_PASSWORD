@@ -40,4 +40,26 @@ public class LoginPage extends ProjectSpecificMethods{
 
 	}
 	
+	public LoginPage enterUserId(String uID) {
+		locateElement("id", "_ParticipantLogon20_WAR_ahcommonauthportlet_userId").sendKeys(uID);
+		return this;
+
+	}
+	
+	public LoginPage enterPassword(String password) {
+		locateElement("id", "_ParticipantLogon20_WAR_ahcommonauthportlet_password").sendKeys(password);
+		return this;
+	}
+	
+	public HomePage clickLogIn() {
+		locateElement("id", "_ParticipantLogon20_WAR_ahcommonauthportlet_logOn").click();
+		return new HomePage();
+	}
+	
+	public LoginPage unCheckRSA() {
+		locateElement("id", "_ParticipantLogon20_WAR_ahcommonauthportlet_enableNPVCheckbox").click();
+		return this;
+
+	}
+	
 }

@@ -9,21 +9,22 @@ import base.ProjectSpecificMethods;
 public class CreateLoginDetailsPage extends ProjectSpecificMethods{
 
 	public CreateLoginDetailsPage enterUserID(String intnID) {
+		userID = "AA"+intnID;
 		locateElement("id",
-				  "_ParticipantLogon20_WAR_ahcommonauthportlet_userId").sendKeys("AA"+intnID);
+				  "_ParticipantLogon20_WAR_ahcommonauthportlet_userId").sendKeys(userID);
 		return this;
 	}
 	
 	public CreateLoginDetailsPage enterPassword() {
 		locateElement("id",
-				  "_ParticipantLogon20_WAR_ahcommonauthportlet_password").sendKeys("August13!!");
+				  "_ParticipantLogon20_WAR_ahcommonauthportlet_password").sendKeys(password);
 		return this;
 	}
 	
 	public CreateLoginDetailsPage reEnterPassword() {
 		locateElement("id",
 				  "_ParticipantLogon20_WAR_ahcommonauthportlet_reEnterPassword").sendKeys(
-				  "August13!!");
+						  password);
 		return this;
 		}
 	

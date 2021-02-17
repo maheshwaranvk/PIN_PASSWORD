@@ -27,6 +27,9 @@ public class ProjectSpecificMethods extends WrapperClass{
 	/* public String dob = "01/25/1952"; */
 	public static String day,month,year;
 	 public String excelFileName; 
+	 
+	 public static String userID ;
+	 public static String password ="August13!!";
 	
 	
 	public void DOBConversion(String dob) throws ParseException {
